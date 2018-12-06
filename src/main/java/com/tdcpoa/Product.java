@@ -1,4 +1,4 @@
-package com.latam.tdcpoa;
+package com.tdcpoa;
 
 public class Product {
 
