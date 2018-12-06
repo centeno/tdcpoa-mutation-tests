@@ -5,6 +5,10 @@ gradle/
 gradlew
 gradle.bat
 /build/
+.classpath
+.project
+.settings/
+bin/
 
 # Ignore Gradle GUI config
 gradle-app.setting

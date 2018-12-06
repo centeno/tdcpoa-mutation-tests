@@ -18,7 +18,7 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'info.solidsoft.pitest'
 apply plugin: 'jacoco'
 
-group = 'com.latam.tdcpoa'
+group = 'com.tdcpoa'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
@@ -32,7 +32,7 @@ dependencies {
 }
 
 pitest {
-	targetClasses = ['com.latam.tdcpoa.*']
+	targetClasses = ['com.tdcpoa.*']
 	threads = 4
 	outputFormats = ['XML', 'HTML']
 	timestampedReports = false
