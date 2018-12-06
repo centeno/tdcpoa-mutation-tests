@@ -1,6 +1,9 @@
 .idea/
 .DS_Store
 .gradle
+gradle/
+gradlew
+gradle.bat
 /build/
 
 # Ignore Gradle GUI config
